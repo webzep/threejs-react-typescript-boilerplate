@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "removeComments": false,
+    "sourceMap": false,
+    "jsx": "react",
+    "paths": {
+      "@classes/*": ["./src/classes/*"],
+      "@controllers/*": ["./src/controllers/*"],
+      "@core/*": ["./src/core/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "exclude": [".git", "node_modules"],
+  "include": ["src/**/*"]
+}

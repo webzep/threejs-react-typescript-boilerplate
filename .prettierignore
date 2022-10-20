@@ -1,0 +1,6 @@
+*.json
+.parcel-cache
+build
+dist
+coverage
+node_modules
